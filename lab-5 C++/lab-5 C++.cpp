@@ -246,42 +246,52 @@ bool isEqual(char a, char b)
 int main()
 {
     //task_1
-
-    /*double a, b, c;
-    cout << "Enter coefficients a, b, and c: ";
-    cin >> a >> b >> c;
-
-    Task_1(a, b, c);*/
+    {
+        cout << "Task_1\n";
+        double a, b, c;
+        cout << "Enter coefficients a, b, and c: ";
+        cin >> a >> b >> c;
+        Task_1(a, b, c);
+    }
 
     //Task_2
 
-    /*double side1, side2, angleInDegrees;
-    cout << "Enter the first side of the triangle: ";
-    cin >> side1;
-    cout << "Enter the second side of the triangle: ";
-    cin >> side2;
-    cout << "Enter the angle between the sides in degrees: ";
-    cin >> angleInDegrees;
+    {
+        cout << "Task_2\n";
+        double side1, side2, angleInDegrees;
+        cout << "Enter the first side of the triangle: ";
+        cin >> side1;
+        cout << "Enter the second side of the triangle: ";
+        cin >> side2;
+        cout << "Enter the angle between the sides in degrees: ";
+        cin >> angleInDegrees;
 
-    double thirdSide = Task_2(side1, side2, angleInDegrees);
-    cout << "The length of the third side of the triangle is: " << thirdSide << endl;*/
+        double thirdSide = Task_2(side1, side2, angleInDegrees);
+        cout << "The length of the third side of the triangle is: " << thirdSide << endl;
+    }
 
     //Task_3
 
-    //double x1, y1, x2, y2;
-    //cout << "Enter the coordinates of the first point (x1 y1): ";
-    //cin >> x1 >> y1;
-    //cout << "Enter the coordinates of the second point (x2 y2): ";
-    //cin >> x2 >> y2;
-    //double distance = Task_3(x1, y1, x2, y2);
-    //cout << "The distance between the two points is: " << distance << endl;
+    {
+        cout << "Task_3\n";
+        double x1, y1, x2, y2;
+        cout << "Enter the coordinates of the first point (x1 y1): ";
+        cin >> x1 >> y1;
+        cout << "Enter the coordinates of the second point (x2 y2): ";
+        cin >> x2 >> y2;
+        double distance = Task_3(x1, y1, x2, y2);
+        cout << "The distance between the two points is: " << distance << endl;
+    }
 
     //Task_5
 
-    /*int numberOfRandomNumbers;
-    cout << "Enter the number of random numbers to generate: ";
-    cin >> numberOfRandomNumbers;
-    Task_4(numberOfRandomNumbers);*/
+    {
+        cout << "Task_5\n";
+        int numberOfRandomNumbers;
+        cout << "Enter the number of random numbers to generate: ";
+        cin >> numberOfRandomNumbers;
+        Task_4(numberOfRandomNumbers);
+    }
 
     //Task_6
 
@@ -289,118 +299,148 @@ int main()
 
     //Task_7
 
-    /*cout << "Task 7:\n";
-    char ch;
-    cout << "Enter a character: ";
-    cin >> ch;
-    cout << "tolowerR: " << tolowerR(ch) << endl;
-    cout << "toupperR: " << toupperR(ch) << endl;
-    cout << "isalphaR: " << isalphaR(ch) << endl;
-    cout << "islowerR: " << islowerR(ch) << endl;
-    cout << "isupperR: " << isupperR(ch) << endl;
-    cout << "isalnumR: " << isalnumR(ch) << endl;*/
-
+    {
+        cout << "Task 7:\n";
+        char ch;
+        cout << "Enter a character: ";
+        cin >> ch;
+        cout << "tolowerR: " << tolowerR(ch) << endl;
+        cout << "toupperR: " << toupperR(ch) << endl;
+        cout << "isalphaR: " << isalphaR(ch) << endl;
+        cout << "islowerR: " << islowerR(ch) << endl;
+        cout << "isupperR: " << isupperR(ch) << endl;
+        cout << "isalnumR: " << isalnumR(ch) << endl;
+    }
+    
     //Task_8
 
-    //Task_8();
+    {
+        cout << "Task_8\n";
+        Task_8();
+    }
 
     //Task_9
 
-    /*cout << "Task 9:\n";
-    int a, b;
-    cout << "Enter the first side: ";
-    cin >> a;
-    cout << "Enter the second side: ";
-    cin >> b;
-
-    unsigned long result = Task_9(a, b);
-    cout << "Perimeter of the rectangle is: " << result << endl;*/
+    {
+        cout << "Task 9:\n";
+        int a, b;
+        cout << "Enter the first side: ";
+        cin >> a;
+        cout << "Enter the second side: ";
+        cin >> b;
+        unsigned long result = Task_9(a, b);
+        cout << "Perimeter of the rectangle is: " << result << endl;
+    }
 
     //Task_10
 
-    /*cout << "Task 10:\n";
-    int a, b;
-    cout << "Enter the first side: ";
-    cin >> a;
-    cout << "Enter the second side: ";
-    cin >> b;
-
-    unsigned long result = Task_10(a, b);
-    cout << "Perimeter of the rectangle is: " << result << endl;*/
-
+    {
+        cout << "Task 10:\n";
+        int a, b;
+        cout << "Enter the first side: ";
+        cin >> a;
+        cout << "Enter the second side: ";
+        cin >> b;
+        unsigned long result = Task_10(a, b);
+        cout << "Perimeter of the rectangle is: " << result << endl;
+    }
+    
     //Task_11
 
-    /*int x, y;
-    cout << "Enter a number: ";
-    cin >> x;
-    y = myFunc(x);
-    cout << "Result: " << y << endl;*/
-
+    {
+        cout << "Task_11\n";
+        int x, y;
+        cout << "Enter a number: ";
+        cin >> x;
+        y = myFunc(x);
+        cout << "Result: " << y << endl;
+    }
+    
     //Task_12
 
-    /*int dividend, divisor;
-    cout << "Enter dividend: ";
-    cin >> dividend;
-    cout << "Enter divisor: ";
-    cin >> divisor;
-
-    double result = divide(dividend, divisor);
-
-    if (result == -1) 
     {
-        cout << "Division by zero is not allowed." << endl;
+        cout << "Task_12\n";
+        int dividend, divisor;
+        cout << "Enter dividend: ";
+        cin >> dividend;
+        cout << "Enter divisor: ";
+        cin >> divisor;
+
+        double result = divide(dividend, divisor);
+
+        if (result == -1)
+        {
+            cout << "Division by zero is not allowed." << endl;
+        }
+        else
+        {
+            cout << "Result of division: " << result << endl;
+        }
+
     }
-    else 
-    {
-        cout << "Result of division: " << result << endl;
-    }*/
-
+    
     //Task 13
 
     //task 14
 
-    /*if (Task_14()) 
     {
-        cout << "True: User entered 'Y', 'y', 'd', or 'D'." << endl;
-    }
-    else 
-    {
-        cout << "False: User did not enter 'Y', 'y', 'd', or 'D'." << endl;
-    }*/
+        cout << "Task_14\n";
 
+        if (Task_14())
+        {
+            cout << "True: User entered 'Y', 'y', 'd', or 'D'." << endl;
+        }
+        else
+        {
+            cout << "False: User did not enter 'Y', 'y', 'd', or 'D'." << endl;
+        }
+
+    }
+   
     // Task_15
 
-    /*char inputChar;
-    cout << "Enter a character: ";
-    cin >> inputChar;
+    {
+        cout << "Task_15\n";
+        char inputChar;
+        cout << "Enter a character: ";
+        cin >> inputChar;
 
-    int asciiValue = Task_15(inputChar);
-    cout << "ASCII value of '" << inputChar << "' is: " << asciiValue << endl;*/
+        int asciiValue = Task_15(inputChar);
+        cout << "ASCII value of '" << inputChar << "' is: " << asciiValue << endl;
 
+    }
+   
     //Task_16
 
-    /*int number;
-    cout << "Enter a number: ";
-    cin >> number;
+    {
+        cout << "Task_16\n";
+        int number;
+        cout << "Enter a number: ";
+        cin >> number;
 
-    Task_16(number);
+        Task_16(number);
 
-    cout << "Outside function: Original number is: " << number << endl;*/
-
+        cout << "Outside function: Original number is: " << number << endl;
+    }
+   
     //Task 17
 
-    /*int number;
-    cout << "Enter a number: ";
-    cin >> number;
+    {
+        cout << "Task_17\n";
+        int number;
+        cout << "Enter a number: ";
+        cin >> number;
 
-    Task_17(number);
+        Task_17(number);
 
-    cout << "Outside function: Original number is: " << number << endl;*/
-
+        cout << "Outside function: Original number is: " << number << endl;
+    }
+    
     //Task_18
    
     {
-        /*int num1, num2;
+        cout << "Task_18\n";
+        int num1, num2;
         cout << "Enter the first number: ";
         cin >> num1;
 
@@ -419,12 +459,13 @@ int main()
             num2 = 0;
         }
         int sum = Task_18(num1, num2);
-        cout << "Sum: " << sum << endl;*/
+        cout << "Sum: " << sum << endl;
     }
 
     //Task 19
 
     {
+        cout << "Task_19\n";
         int num1 = 5, num2 = 5;
         double dbl1 = 3.14, dbl2 = 3.14;
         char char1 = 'A', char2 = 'a';
